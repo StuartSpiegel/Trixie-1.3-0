@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33561dde-8a03-4115-95ed-cf5a3768cb21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/readWiki.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jira_issues.csv" beforeDir="false" afterPath="$PROJECT_DIR$/jira_issues.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/color_key1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/color_key1.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies1.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies10.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies10.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies11.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies11.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies12.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies12.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies13.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies13.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies14.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies14.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies15.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies15.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies2.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies3.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies4.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies5.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies6.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies6.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies7.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies7.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies8.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies8.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies9.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies9.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +34,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
@@ -176,6 +161,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="225" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584462289410" />
+    <state x="707" y="376" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587060059165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="707" y="376" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587060059165" />
     <state x="417" y="86" key="CommitChangelistDialog2" timestamp="1585069550927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
