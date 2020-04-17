@@ -20,6 +20,7 @@ WikiLink('[[new_title#new_frgament|X]]')
 WikiLink('[[new_title#new_fragment]]')
 
 # Writing the first page template with string formatting
+# TODO: Fix target link encapsulation
 target = "WEB LINK OF TARGET WIKI PAGE"
 parsed = wtp.parse(WikiLink(target))
 arguments = parsed.templates[0].arguments
@@ -90,3 +91,4 @@ ref.name = "X_NAME"
 template_1 = wtp.parse("{{a|{{b|{{c|{{d}}}}}}}}").templates[3]
 template_ancestors = template_1.ancestors()
 template_parents = template_1.parent()
+
