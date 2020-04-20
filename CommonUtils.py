@@ -79,7 +79,7 @@ def get_story_list(lines):
     # Make sure color is not a repeat from a different project
     while projectColor in colorFeatureMap:
         projectColor = getLightColor()  # This was changed from randomColor() to
-        # getLightColor()
+        # getLightColor() in version 1.2-0
 
     colorFeatureMap[projectColor] = feature
 
