@@ -4,7 +4,13 @@
     <list default="true" id="33561dde-8a03-4115-95ed-cf5a3768cb21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CommonUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/CommonUtils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MediaParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/MediaParser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs1/Wiki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Docs1/Wiki.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saturation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Saturation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jira_issues.csv" beforeDir="false" afterPath="$PROJECT_DIR$/jira_issues.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sticky_notes/color_key1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/color_key1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies2.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sticky_notes/stickies3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sticky_notes/stickies3.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +41,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="CreateStickies" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -121,28 +126,35 @@
       <option name="project" value="LOCAL" />
       <updated>1585069553872</updated>
     </task>
-    <task id="LOCAL-00008" summary="-Create Stickies and JIRA are working&#10;-Color is working&#10;-All field parsing works &#10;-Still some bugs with CreateJIRA.py regrading parsing field into JIRA&#10;-bug fixes">
-      <created>1587060479718</created>
+    <task id="LOCAL-00008" summary="-fixed some bugs with parsing field into JIRA &#10;-code simplification and removal of redundancy">
+      <created>1589294817018</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1587060479718</updated>
+      <updated>1589294817018</updated>
     </task>
-    <task id="LOCAL-00009" summary="- Trixie 1.3-0 First Feature push -&#10;--working on reading directly from wiki--">
-      <created>1587062232989</created>
+    <task id="LOCAL-00009" summary="-fixed an issue in CreateJIRA for fileWriter&#10;-creation of test script for JIRA">
+      <created>1589477083105</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1587062232989</updated>
+      <updated>1589477083105</updated>
     </task>
-    <task id="LOCAL-00010" summary="**&#10;--working on reading directly from wiki--">
-      <created>1587142428612</created>
+    <task id="LOCAL-00010" summary="--bug fixes in CreateStickies.py&#10;--logic changes in CommonUtils.py for parsing Acceptance&#10;criteria, etc --parsing a range and using sentinel blank lines to stop parser">
+      <created>1591031915177</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1587142428612</updated>
+      <updated>1591031915177</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="--fixed CreateStickies.py and CommonUtils.py bugs from Trixie Notes.txt&#10;--Sticky Notes now formatted correctly, still some minor trailing bugs &#10;--still ordering issues in JIRA">
+      <created>1591109433350</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591109433350</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,9 +178,11 @@
     <MESSAGE value="-CreateStickies.py is currently broken as I finish up the final method. All features working accept adding the new parsed fields (acceptanceCrtieria, assumptions, etc) to the Sticky with the correct formatting. Editing the method: Populate_text() --&gt; or define a new method to handle" />
     <MESSAGE value="-Create Stickies and JIRA are working&#10;-Color is working&#10;-acceptance Criteria working with tests&#10;-Working on additional features -- possibly read directly from wiki" />
     <MESSAGE value="-Create Stickies and JIRA are working&#10;-Color is working&#10;-All field parsing works &#10;-Still some bugs with CreateJIRA.py regrading parsing field into JIRA&#10;-bug fixes" />
-    <MESSAGE value="- Trixie 1.3-0 First Feature push -&#10;--working on reading directly from wiki--" />
-    <MESSAGE value="**&#10;--working on reading directly from wiki--" />
-    <option name="LAST_COMMIT_MESSAGE" value="**&#10;--working on reading directly from wiki--" />
+    <MESSAGE value="-fixed some bugs with parsing field into JIRA &#10;-code simplification and removal of redundancy" />
+    <MESSAGE value="-fixed an issue in CreateJIRA for fileWriter&#10;-creation of test script for JIRA" />
+    <MESSAGE value="--bug fixes in CreateStickies.py&#10;--logic changes in CommonUtils.py for parsing Acceptance&#10;criteria, etc --parsing a range and using sentinel blank lines to stop parser" />
+    <MESSAGE value="--fixed CreateStickies.py and CommonUtils.py bugs from Trixie Notes.txt&#10;--Sticky Notes now formatted correctly, still some minor trailing bugs &#10;--still ordering issues in JIRA" />
+    <option name="LAST_COMMIT_MESSAGE" value="--fixed CreateStickies.py and CommonUtils.py bugs from Trixie Notes.txt&#10;--Sticky Notes now formatted correctly, still some minor trailing bugs &#10;--still ordering issues in JIRA" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -185,14 +199,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="225" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584462289410" />
-    <state x="707" y="376" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587060059165">
+    <state x="417" y="86" key="CommitChangelistDialog2" timestamp="1591109432433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="707" y="376" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587060059165" />
-    <state x="417" y="86" key="CommitChangelistDialog2" timestamp="1587398820967">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="417" y="86" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587398820967" />
+    <state x="417" y="86" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591109432433" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1584548858588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -217,10 +227,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="304" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584558405147" />
-    <state x="503" y="151" key="SettingsEditor" timestamp="1587137771517">
+    <state x="503" y="151" key="SettingsEditor" timestamp="1584973854016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="503" y="151" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587137771517" />
+    <state x="503" y="151" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584973854016" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584977829905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
